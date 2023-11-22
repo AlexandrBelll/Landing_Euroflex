@@ -1,0 +1,109 @@
+.industry-solutions {
+    padding: 149px 0 100px;
+    &__title {
+        margin: 0 0 60px;
+    }
+    
+    &__cards {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 40px 29px;
+        margin: 0 0 60px;
+    }
+    &__card {
+        width: 273px;
+        height: 260px;
+        color: #646566;
+        padding: 25px 23px;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.24);
+        border-radius: 5px;
+        &:nth-child(1) {
+            background: url('../images/industry-solutions/01.jpg')
+        }
+        &:nth-child(2) {
+            background: url('../images/industry-solutions/02.jpg')
+        }
+        &:nth-child(3) {
+            background: url('../images/industry-solutions/03.jpg')
+        }
+        &:nth-child(4) {
+            background: url('../images/industry-solutions/04.jpg')
+        }
+        &:nth-child(5) {
+            background: url('../images/industry-solutions/05.jpg')
+        }
+        &:nth-child(6) {
+            background: url('../images/industry-solutions/06.jpg')
+        }
+        &:nth-child(7) {
+            background: url('../images/industry-solutions/07.jpg')
+        }
+        &:nth-child(8) {
+            background: url('../images/industry-solutions/08.jpg')
+        }
+        &:nth-child(9) {
+            background: url('../images/industry-solutions/09.jpg')
+        }
+        &:nth-child(10) {
+            background: url('../images/industry-solutions/10.jpg')
+        }
+        & h3 {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            text-transform: uppercase; 
+            margin: 0 0 29px;
+        }
+        & ul {
+            padding: 0  0 0 23px;
+            li {
+                font-size: 12px;
+                line-height: 15px;
+                list-style-type: disc;
+                margin: 0 0 10px;
+                padding: 0 0 0 3px;
+                &::marker {
+                    color: rgba(255, 174, 174, 0.8);
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    &__hide {
+        margin: 0 auto 60px;
+        text-align: center;
+        & p {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;  
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #FFAEAE;
+            margin: 0 0 10px;
+        }
+        & button {
+            background: url('../images/industry-solutions/icon/subtract.svg') no-repeat;
+            border: none;
+            cursor: pointer;
+            width: 46px;
+            height: 46px;
+        }
+    }
+
+    &__annotation {
+        line-height: 25px;
+        text-align: center;
+        color: #646566;
+        margin: 0 auto 30px;
+        max-width: 394px;
+    }
+    &__button {
+        display: block;
+        margin: 0 auto;
+    }
+
+}

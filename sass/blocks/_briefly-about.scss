@@ -1,0 +1,48 @@
+.briefly-about {
+    background: url('../images/main-img.jpg') no-repeat;
+    background-size: cover;
+    color: #444444;
+    padding: 151px 0 67px 0;
+    &__body {
+        position: relative;
+    }   
+    &__title {      
+        font-size: 32px;
+        line-height: 38px;
+        margin: 0 0 60px 0;
+        width: 55%;
+        & span {
+            font-weight: 700;
+        }
+    }
+    &__subtitle {
+        font-size: 23px;
+        line-height: 32px;
+        margin: 0 0 40px 0;
+    }
+
+    &__form {
+        position: absolute;
+        top: -29px;
+        right: 0;
+    }
+}
+
+.advantages {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.advantage {
+    text-align: center;
+    flex: 0 1 28%;
+    &__icon {
+        margin: 0 0 20px 0;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+}
