@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html {
+    scroll-padding-top: 111px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    // background: url('../images/main-img.jpg') no-repeat;
+    // background-size: 100% auto;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    // @media screen and (max-width: 1280px) {
+    //     max-width: 88.7%;
+    // }
+    // @media screen and (max-width: 767px) {
+    //     max-width: 95%;
+    // }
+}
+
+.section-title {
+    color: #646566;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn {
+    background: #FF5C5C;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.24);
+    border: 2px solid #FFAEAE;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    padding: 18px 2.28em 15px;
+    text-transform: uppercase;
+    &:hover {
+        color: #FF5C5C;
+        background: #fff;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.24);
+        border-radius: 4px;
+    }
+}
+
+.feedback-form {
+    background: #fff;
+    max-width: 430px;
+    padding: 50px 65px 20px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    &__title {
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 32px;
+        color: #444444;
+        margin: 0 0 28px 0;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 18px;
+        color: #80A2C5;
+        margin: 0 0 30px 0;
+    }
+    &__label {
+        line-height: 25px;
+        color: #444444;
+    }
+    &__input {
+        background: #EDEFF2;
+        box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.12);
+        border-radius: 2px;
+        border: none;
+        width: 100%;
+        padding: 8px 10px;
+        margin: 0 0 20px 0;
+    }
+    &__button {
+        margin: 15px 0 20px 0;
+        letter-spacing: 0em;
+        width: 100%;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & img {
+            margin: 0 10px 0 0;
+        }
+        & p {
+            font-size: 10px;
+            line-height: 12px;
+            color: #BCBFC4;
+        }
+    }
+}
+
+// .swiper {
+//     // width: 600px;
+//     // height: 442px;
+//   }

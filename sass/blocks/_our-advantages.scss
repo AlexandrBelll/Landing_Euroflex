@@ -1,0 +1,30 @@
+.our-advantages {
+    padding: 100px 0 115px 0;
+}
+
+.our-advantages-title {
+    margin: 0 0 80px 0;
+}
+
+.our-advantages-cards {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 6%;
+    row-gap: 80px;
+    justify-content: space-around;
+}
+
+.our-advantages-card {
+    flex: 1 1 20%;
+    text-align: center;
+
+    &__icon {
+        margin: 0 0 20px 0;
+    }
+
+    &__text {
+        line-height: 146.484%;
+        letter-spacing: 0.64px;
+        text-transform: uppercase;
+    }
+}

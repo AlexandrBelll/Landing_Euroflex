@@ -1,0 +1,109 @@
+.our-manufacture {
+    background: url('../images/our-manufacture/bg.jpg') no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.our-manufacture-title {
+    margin-bottom: 27px;
+}
+
+.our-manufacture-text {
+    max-width: 980px;
+    margin: 0 auto;
+    line-height: 25px;
+    color: #646566;
+    &__paragr {
+        margin: 0 0 20px;
+        &_red {
+            font-weight: 700;
+            line-height: 25px;
+            text-decoration-line: underline;
+            color: #FF5C5C;
+            margin-bottom: 60px;
+        }
+    }
+    & span {
+        font-weight: 700;
+        margin: 0 0 10px;
+    }
+    & ul {
+        list-style-type: "\2014";
+        padding: 0 0 0 13px;
+        margin-bottom: 10px;
+        & li {
+            padding: 0 0 0 5px;
+        }
+    }
+}
+
+.our-manufacture-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+.our-manufacture-column {
+    font-size: 14px;
+    line-height: 18px;
+    flex: 0 1 25%;
+    & .top {
+        display: block;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 59px;
+        color: #FF5C5C;
+        width: 100%;
+        & span {
+            font-size: 28px;
+        }
+    }
+}
+
+.our-manufacture-slider {
+    height: 167px;
+    overflow: hidden;
+    &__wrapper {
+        padding: 0 100px;
+    }
+    
+    // &__slide {
+    //     // padding: 0 100px;
+    // }
+
+    & .swiper-pagination {
+        &-bullet {
+            background: #EDEFF2;
+            border: 2px solid #BCBFC4;
+            width: 10px;
+            height: 10px;
+
+            &-active {
+            background: #FC9696;
+            border: none;
+            }
+        }
+    }
+    & .swiper-button-prev {
+        &::after {      
+            border-radius: 50%;
+            background: url('../images/our-products/icon/leftarrow.svg') no-repeat;
+            // color: transparent;
+            letter-spacing: 11px;
+        }
+    }
+    & .swiper-button-next {
+        &::after {      
+            border-radius: 50%;
+            background: url('../images/our-products/icon/rightarrow.svg') no-repeat;
+            // color: transparent;
+            letter-spacing: 11px;
+        }
+    }
+}
+
+
+
+
+
+

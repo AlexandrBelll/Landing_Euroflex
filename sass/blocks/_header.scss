@@ -1,0 +1,56 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 27px 0;
+    }
+    
+    &__logo {
+        width: 24.5%;
+    }
+    &__nav {
+        width: 50%;
+    }
+    &__contacts {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        width: 14%;
+        & span {
+            color: #2E3033;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            margin-bottom: 10px;
+        }
+        & button {
+            font-weight: 400;
+            line-height: 18px;
+            padding: 4px 15px;
+            text-transform: inherit;
+            &:hover {
+                padding: 4px 15px;
+            }
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    &__item a {
+        border-bottom: 0.25px solid #BCBFC4;
+        color: #222222;
+        &:hover {
+            border-bottom: 0.25px solid #000;
+        }
+    }
+}
+
+
